@@ -3,74 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Actividad 01 - Repaso de Conceptos Esenciales de HTML para desarrollo web full stack.">
-    <title>Actividad 01 - Repaso HTML</title>
+    <title>Actividad 02 - Uso de div</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <!-- Título principal -->
-        <h1>Fundamentos del Desarrollo Web</h1>
-    </header>
+    <!-- Encabezado principal -->
+    <div class="header">
+        <h1>Exploración del Desarrollo Web Full Stack</h1>
+    </div>
 
-    <main>
-        <!-- Subtítulo y párrafos con formato -->
-        <section>
-            <h2>Estructura Semántica y Buenas Prácticas</h2>
+    <!-- Área de contenido dividida en dos secciones -->
+    <div class="content">
+        <div class="section">
+            <h2>Estructuración con Contenedores</h2>
             <p>
-                El lenguaje HTML define la estructura de una página web, asegurando que el contenido sea <strong>altamente accesible</strong> y comprensible tanto para los navegadores como para los motores de búsqueda mediante el uso de etiquetas <em>semánticas</em>.
+                La etiqueta div actúa como un bloque neutro fundamental para agrupar elementos visuales,
+                permitiendo segmentar el diseño en módulos independientes antes de la llegada de las etiquetas semánticas.
             </p>
-        </section>
+        </div>
 
-        <!-- Lista desordenada con al menos 3 elementos -->
-        <section>
-            <h2>Tecnologías Web Esenciales</h2>
-            <ul>
-                <li>HTML5: Estructura y semántica del documento</li>
-                <li>CSS3: Estilos, diseño responsivo y presentación visual</li>
-                <li>JavaScript: Interactividad y lógica en el cliente</li>
-            </ul>
-        </section>
-
-        <!-- Imagen con figura y descripción -->
-        <section>
-            <h2>Recurso Visual</h2>
-            <figure>
-                <img src="imagen.jpg" alt="Representación visual de desarrollo web y código en pantalla" width="400">
-                <figcaption>Figura 1: Representación de desarrollo web moderno y buenas prácticas de codificación.</figcaption>
-            </figure>
-        </section>
-
-        <!-- Enlace a una página externa -->
-        <section>
-            <h2>Documentación de Referencia</h2>
+        <div class="section">
+            <h2>Separación de Estilos y Funcionalidad</h2>
             <p>
-                Para validar el estándar de tu código, puedes visitar el <a href="https://validator.w3.org/" target="_blank">Validador Oficial de la W3C</a>.
+                Al asignar clases específicas a cada bloque contenedor, facilitamos la aplicación de reglas CSS modulares,
+                manteniendo un código limpio, ordenado y preparado para escalar hacia arquitecturas más complejas.
             </p>
-        </section>
+        </div>
+    </div>
 
-        <!-- Formulario básico -->
-        <section>
-            <h2>Formulario de Contacto</h2>
-            <form action="/submit" method="POST">
-                <div>
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
-                </div>
-                <br>
-                <div>
-                    <label for="comentarios">Comentarios:</label><br>
-                    <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="Escribe tus comentarios aquí..." required></textarea>
-                </div>
-                <br>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 - Proyecto de Fundamentos Web</p>
-    </footer>
+    <!-- Pie de página con copyright -->
+    <div class="footer">
+        <p>&copy; 2026 Universidad Interamericana de Puerto Rico - Recinto de Arecibo. Todos los derechos reservados.</p>
+    </div>
 
 </body>
 </html>
