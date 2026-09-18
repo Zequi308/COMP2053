@@ -3,39 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 02 - Uso de div</title>
+    <title>Actividad 03 - Fundamentos de CSS</title>
+    <!-- Vinculación a la hoja de estilos externa -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Encabezado principal -->
-    <div class="header">
-        <h1>Exploración del Desarrollo Web Full Stack</h1>
-    </div>
+    <!-- Elemento con ID único -->
+    <h1 id="titulo-principal">Lenguajes del Desarrollo Web</h1>
 
-    <!-- Área de contenido dividida en dos secciones -->
-    <div class="content">
-        <div class="section">
-            <h2>Estructuración con Contenedores</h2>
-            <p>
-                La etiqueta div actúa como un bloque neutro fundamental para agrupar elementos visuales,
-                permitiendo segmentar el diseño en módulos independientes antes de la llegada de las etiquetas semánticas.
-            </p>
-        </div>
+    <!-- Elementos de párrafo que serán afectados por el selector de etiqueta -->
+    <p>
+        HTML se encarga de estructurar el contenido de un sitio web, mientras que CSS define la presentación, el diseño visual y la estética.
+    </p>
 
-        <div class="section">
-            <h2>Separación de Estilos y Funcionalidad</h2>
-            <p>
-                Al asignar clases específicas a cada bloque contenedor, facilitamos la aplicación de reglas CSS modulares,
-                manteniendo un código limpio, ordenado y preparado para escalar hacia arquitecturas más complejas.
-            </p>
-        </div>
-    </div>
+    <!-- Lista con elementos normales y elementos con clase aplicada -->
+    <ul>
+        <li>HTML (HyperText Markup Language)</li>
+        <li class="item-destacado">CSS (Cascading Style Sheets)</li>
+        <li>JavaScript</li>
+        <li class="item-destacado">Python</li>
+    </ul>
 
-    <!-- Pie de página con copyright -->
-    <div class="footer">
-        <p>&copy; 2026 Universidad Interamericana de Puerto Rico - Recinto de Arecibo. Todos los derechos reservados.</p>
-    </div>
+    <p>
+        Separar la estructura del diseño facilita el mantenimiento y la reutilización del código en múltiples páginas.
+    </p>
 
 </body>
 </html>
